@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: <+artifact.image>
+          image: docker.io/chenna12356/java:v1
           ports:
             - containerPort: 80
 ---
